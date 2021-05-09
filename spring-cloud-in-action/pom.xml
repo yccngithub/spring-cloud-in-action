@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.learn.cloud</groupId>
+    <artifactId>spring-cloud-in-action</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <modules>
+        <module>microservice-simple-provider-user</module>
+        <module>microservice-simple-consumer-movie</module>
+        <module>microservice-consumer-movie</module>
+        <module>microservice-discovery-eureka</module>
+        <module>microservice-discovery-eureka-ha</module>
+        <module>microservice-discovery-eureka-authenticating</module>
+        <module>microservice-provider-user</module>
+        <module>microservice-consumer-movie-ribbon-customizing</module>
+        <module>microservice-consumer-movie-ribbon-without-eureka</module>
+        <module>microservice-consumer-movie-feign</module>
+        <module>microservice-consumer-movie-feign-customizing</module>
+        <module>microservice-provider-user-with-auth</module>
+        <module>microservice-consumer-movie-feign-manual</module>
+        <module>microservice-consumer-movie-feign-logging</module>
+        <module>microservice-consumer-movie-ribbon-hystrix</module>
+        <module>microservice-consumer-movie-feign-hystrix-fallback</module>
+        <module>microservice-consumer-movie-feign-hystrix-fallback-factory</module>
+        <module>microservice-consumer-movie-feign-hystrix-fallback-stream</module>
+        <module>microservice-hystrix-dashboard</module>
+        <module>microservice-hystrix-turbine</module>
+    </modules>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.9.RELEASE</version>
+    </parent>
+
+</project>

@@ -1,0 +1,7 @@
+server:
+  port: 8761
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceurl: http://localhost:8761/eureka/
