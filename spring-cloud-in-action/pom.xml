@@ -29,6 +29,7 @@
         <module>microservice-consumer-movie-feign-hystrix-fallback-stream</module>
         <module>microservice-hystrix-dashboard</module>
         <module>microservice-hystrix-turbine</module>
+        <module>microservice-gateway-zuul</module>
     </modules>
 
     <parent>

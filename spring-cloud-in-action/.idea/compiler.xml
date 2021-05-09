@@ -12,8 +12,10 @@
         <module name="microservice-consumer-movie-ribbon-customizing" />
         <module name="microservice-hystrix-turbine" />
         <module name="microservice-consumer-movie-ribbon-without-eureka" />
+        <module name="microservice-discovery-eureka-authentication" />
         <module name="microservice-discovery-eureka-authenticating" />
         <module name="microservice-consumer-movie-feign-customizing" />
+        <module name="microservice-gateway-zuul" />
         <module name="microservice-simple-provider-user" />
         <module name="microservice-discovery-eureka-ha" />
         <module name="microservice-provider-user-with-auth" />
